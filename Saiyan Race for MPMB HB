@@ -1,0 +1,19 @@
+var iFileName = "Saiyan.js"; 
+RequiredSheetVersion(12.999); 
+
+RaceList["saiyan"] = { 
+	regExpSearch : /saiyan/i,
+	name : "Saiyan", 
+	source : ["HB", 0], 
+	plural : "Saiyans",
+	size : 3, 
+	speed : {
+		walk : { spd : 30, enc : 20 },
+	},
+	languageProfs : ["Common", "Saiyan"],
+	age : " reach maturity around 13 and live for 100 years, dying within the next 10 years",
+	height : " range from 5 to 7 feet tall", 
+	improvements : "Saiyan: +1 Strength, +2 Constitution;", 
+	scores : [1, 0, 2, 0, 0, 0], //required; the ability score improvements as used by the Ability Score dialog. The syntax is: [Str, Dex, Con, Int, Wis, Cha]
+	trait : "Saiyan (+1 Strength, +2 Constitution)\nZenkai:\n   Every near death experience makes me stronger. If I become unconcious by dropping to 0 hit points, my hit point maximum is increased by 1, up to a maximum bonus equal to double my level."
+},
